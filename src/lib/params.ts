@@ -24,10 +24,8 @@ export const NavBar = {
 	skills: 'Skills',
 	Education: 'Education'
 };
-const description = `Highly skilled and dedicated React Native Developer with 5 years of experience in developing high performance and
-user-friendly mobile applications. My strong motivation and creative mindset enable me to approach challenges with
-innovative solutions, while my passion for learning ensures I stay up-to-date with the latest industry trends and
-technologies.`;
+const description = `Versatile and results-driven AI Engineer with specialized expertise in both Computer Vision and Large Language Models (LLMs). Proven ability to design and deploy end-to-end intelligent systems, from real-time video analysis to advanced generative AI agents.`;
+
 
 export const getPlatfromIcon = (platform: Platform): Icons => {
 	switch (platform) {
@@ -49,39 +47,17 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 };
 
 export const HOME: HomePageParams = {
-	title: 'Home',
-	name: 'Sajjad',
-	lastName: 'Seyfollah',
-	description: description,
-	description1: `Seeking a challenging role as a React Native Developer to contribute my expertise and drive innovation in a dynamic
-	software development team.`,
-	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/sssajjad007' },
-		{
-			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/in/sajjad-seyfollah'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/sssajjad007'
-		},
-		// {
-		// 	platform: Platform.StackOverflow,
-		// 	link: 'https://stackoverflow.com/'
-		// },
-		{
-			platform: Platform.Email,
-			link: 'sssajjad.76@gmail.com'
-		}
-		// {
-		// 	platform: Platform.Youtube,
-		// 	link: 'https://www.youtube.com'
-		// },
-		// {
-		// 	platform: Platform.Facebook,
-		// 	link: 'https://www.facebook.com'
-		// }
-	]
+    title: 'Home',
+    name: 'Mohammad Reza', // Your first name
+    lastName: 'Abasian',   // Your last name
+    description: description,
+    description1: `I am passionate about building practical, scalable solutions that solve complex, real-world challenges using cutting-edge AI.`, // A shorter second line
+    links: [
+        // UPDATE THESE LINKS
+        { platform: Platform.GitHub, link: 'https://github.com/drmohamad1' }, 
+        { platform: Platform.Email, link: 'Mohamad42912@gmail.com' } // Your email
+        // You can remove or add platforms like Twitter
+    ]
 };
 
 export const PROJECTS: ProjectPageParams = {

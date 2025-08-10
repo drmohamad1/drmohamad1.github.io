@@ -2,28 +2,28 @@ import Assets from './data/assets';
 import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
-	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
-	},
-	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
-	}
+    {
+        degree: "Master's in Computer Science – Systems Theory",
+        description: '',
+        location: 'Iran',
+        logo: Assets.Unknown,
+        name: '',
+        organization: 'University of Allameh',
+        period: { from: new Date(2022, 8, 1) }, // September 2022 - Present
+        shortDescription: '',
+        slug: 'master-degree',
+        subjects: ['LLMs', 'Agentic Systems', 'Computer Vision', 'RAG']
+    },
+    {
+        degree: "Bachelor's in Computer Science",
+        description: '',
+        location: 'Iran',
+        logo: Assets.Unknown,
+        name: '',
+        organization: 'Kashan University',
+        period: { from: new Date(2016, 8, 1), to: new Date(2021, 5, 1) }, // Sep 2016 - June 2021
+        shortDescription: '',
+        slug: 'bachelor-degree',
+        subjects: ['Data Structures', 'Algorithms', 'Python', 'Machine Learning Foundations']
+    }
 ];
