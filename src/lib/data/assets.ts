@@ -132,7 +132,7 @@ const Assets = {
   Unocss: a("unocss.svg"),
   Ruvy: a("ruvy.svg"),
   Postcss: a("postcss.svg"),
-    Pytorch: a('pytorch.png'), // Assuming you uploaded 'pytorch.png'
+    Pytorch: a('pytorch.svg'), // Assuming you uploaded 'pytorch.png'
   HuggingFace: a('huggingface.svg'), // Assuming you uploaded 'huggingface.svg'
 
   // THIS IS THE ONE CAUSING THE ERROR
