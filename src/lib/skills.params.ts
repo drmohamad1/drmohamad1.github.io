@@ -15,14 +15,14 @@ const MY_SKILLS = [
 		slug: 'pytorch',
 		color: 'orange',
 		description: 'Core deep learning framework for building and training neural networks.',
-		logo: Assets.Unknown, // You can add a PyTorch logo to /static/logos later
+		logo: Assets.Pytorch, // You can add a PyTorch logo to /static/logos later
 		name: 'PyTorch'
 	}),
 	s({
 		slug: 'huggingface',
 		color: 'yellow',
 		description: 'Utilizing the Transformers, Datasets, and Tokenizers libraries for NLP and LLM tasks.',
-		logo: Assets.Unknown, // Add a Hugging Face logo later
+		logo: Assets.HuggingFace, // Add a Hugging Face logo later
 		name: 'Hugging Face'
 	}),
 	s({
