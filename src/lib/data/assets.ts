@@ -76,7 +76,7 @@ const Assets = {
   Cpp: a("cpp.svg"),
   Celery: a("celery.svg"),
   Django: a("django.svg"),
-  FastApi: a("fastapi"),
+  FastApi: a("fastapi.svg"),
   Flask: a("flask.svg"),
   Go: a("go.svg"),
   Kafka: a("kafka.svg"),
@@ -132,6 +132,10 @@ const Assets = {
   Unocss: a("unocss.svg"),
   Ruvy: a("ruvy.svg"),
   Postcss: a("postcss.svg"),
+    Pytorch: a('pytorch.png'), // Assuming you uploaded 'pytorch.png'
+  HuggingFace: a('huggingface.svg'), // Assuming you uploaded 'huggingface.svg'
+
+  // THIS IS THE ONE CAUSING THE ERROR
 };
 
 export default Assets;
